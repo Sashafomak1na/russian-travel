@@ -1,0 +1,6 @@
+.header__lang-links {
+    margin-left: auto;
+    display: flex;
+    column-gap: 18px;
+    list-style-type: none;
+}

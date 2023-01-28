@@ -1,0 +1,10 @@
+.place__website {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .place__website {
+        margin-left: 5%;
+    }
+}

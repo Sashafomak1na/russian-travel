@@ -1,0 +1,8 @@
+@media (max-width: 650px) {
+    .place__paragraphs {
+        display: inline-block;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
