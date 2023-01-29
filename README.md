@@ -11,5 +11,5 @@ bem-nested
 
 **GitHub**
 
-* [Ссылка проекта на GitHub](https://github.com/Sashafomak1na/russian-travel.git)
+* [Ссылка проекта](https://sashafomak1na.github.io/russian-travel/)
 
