@@ -5,6 +5,7 @@
     color: #FFFFFF;
     padding: 0;
     margin: 0;
+    align-self: end;
 }
 
 .place__link:hover {

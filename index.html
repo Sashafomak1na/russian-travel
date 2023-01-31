@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
@@ -11,8 +10,8 @@
       <header class="header">
         <img src="./images/header-logo.svg" alt="Картинка логотип" class="header__logo">
         <div class="header__lang-links">
-            <a class="header__lang-link" href="#">Ru</a>
-            <a class="header__lang-link header__lang-link_included" href="#">En</a>
+            <a class="header__lang-link header__lang-link_included" href="#">Ru</a>
+            <a class="header__lang-link" href="#">En</a>
         </div>
       </header>
       <main class="main">
@@ -22,14 +21,14 @@
             <img src="./images/lead-polka.jpg" alt="Картинка полка" class="lead__image">
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
-        <section class="intro page-content">
+        <section class="intro">
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров
                  по родной стране. Мы выбрали 
                 и описали некоторые интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
                 <li>
-                    <p>Часовых поясов <span class="intro__numeric">11</span></p>
+                    <p class="intro__element">Часовых поясов <span class="intro__numeric">11</span></p>
                 </li>
                 <li>
                     <p>Объектов природного наследия ЮНЕСКО <span class="intro__numeric">12</span></p>
@@ -135,23 +134,13 @@
         </section>
       </main>
       <footer class="footer">
-        <ul class="footer__links">
-            <li>
-              <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-            </li>
-            <li>
-                <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-            </li>
-            <li>
-                <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-            </li>
-            <li>
-                <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-            </li>
-            <li>
-                <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-            </li>
-        </ul>
+        <nav class="footer__links">
+            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+        </nav>
         <p class="footer__copyright">&copy; 2020. Впишите своё имя</p>
       </footer>
 </body>
